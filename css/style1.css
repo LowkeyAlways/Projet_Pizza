@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Exo+2&family=Saira+Extra+Condensed&display=swap');
+
+    /*========== BASE ==========*/
+*{
+    box-sizing: border-box;
+}
+html{ 
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 0 var(--header-height) 0;
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+h1,h2,h3,h4,p,ol,ul,figure,dd{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none !important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4{
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.img-pizza{
+    height: 280px;
+}
+
+.nav{
+    display: flex;
+    background-color: #8d8d8d;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: xxx-large;
+    max-width: none !important;
+    margin: 0;
+    margin-bottom: 5rem !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.nav_link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    transition: 0.2s;
+}
+
+nav h1{
+    color: #fff;
+    margin-top: 0.5rem;
+    
+}
+
+.pizza-cards{
+    margin: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2rem;
+    border: .1rem solid;
+    border-radius: 1rem;
+    justify-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: #8d8d8d;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
